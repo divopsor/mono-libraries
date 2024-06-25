@@ -24,13 +24,10 @@ jobs:
         env:
           YARN_NPM_AUTH_TOKEN: ${{ secrets.DIVOPS_PACKAGES_NPM_TOKEN }}
         run: |
+          git reset --hard origin/main
           git config --local user.email "divopsor@gmail.com"
           git config --local user.name "divopsor"
           echo //registry.npmjs.org/:_authToken=${YARN_NPM_AUTH_TOKEN} | tee .npmrc $HOME/.npmrc > /dev/null
-
-          echo "✅ git status"
-          git status
-          echo "✅ git status"
           
           yarn lerna version --conventional-commits --yes --git-remote origin
           

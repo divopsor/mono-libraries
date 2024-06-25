@@ -16,7 +16,9 @@
         "import": "./dist/index.mjs"
       },
       "./package.json": "./package.json"
-    }
+    },
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "prepack": "yarn build",
