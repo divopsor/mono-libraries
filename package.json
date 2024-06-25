@@ -1,0 +1,20 @@
+{
+  "name": "@divops-mono-20240625/mono-libraries",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/divopsor/mono-libraries",
+  "author": "정석호 <seokho.jeong@toss.im>",
+  "license": "MIT",
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "@lerna-lite/cli": "^3.5.1",
+    "@lerna-lite/publish": "^3.5.2",
+    "@lerna-lite/version": "^3.5.2",
+    "@types/node": "^18",
+    "typescript": "5.3.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
