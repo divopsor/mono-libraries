@@ -30,6 +30,6 @@ jobs:
           git status
           echo "✅ git status"
           
-          yarn lerna version --conventional-commits --yes --git-remote origin --dry-run
+          yarn lerna version --conventional-commits --yes --git-remote origin
           
-          yarn lerna publish from-git --yes --concurrency=4 --dry-run
+          yarn lerna publish from-git --yes --concurrency=4
