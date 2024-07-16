@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.4 (2024-07-16)
+
+### Bug Fixes
+
+* **custom-command-tool:** hashbang 넣기 4 ([d3bb371](https://github.com/divopsor/mono-libraries/commit/d3bb3710e5d6e607e1a816104fdbff1d9182a6d7))
+
 ## 0.1.3 (2024-07-16)
 
 ### Bug Fixes
