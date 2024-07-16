@@ -22,8 +22,7 @@
   },
   "scripts": {
     "prepack": "yarn build",
-    "typecheck": "tsc --noEmit",
-    "build": "tsup ./src/index.ts --format cjs,esm"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^18",
