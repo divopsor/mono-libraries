@@ -1,22 +1,11 @@
 {
-  "name": "@divops-mono-20240625/foo",
+  "name": "@divops-mono-20240625/custom-command-tool",
   "version": "0.0.1",
   "main": "./src/index.ts",
-  "exports": {
-    ".": "./src/index.js",
-    "./package.json": "./package.json"
-  },
+  "bin": "./src/cli.js",
   "publishConfig": {
     "main": "./dist/index.js",
-    "module": "./dist/index.mjs",
-    "import": "./dist/index.mjs",
-    "exports": {
-      ".": {
-        "require": "./dist/index.js",
-        "import": "./dist/index.mjs"
-      },
-      "./package.json": "./package.json"
-    },
+    "bin": "./dist/index.js",
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
@@ -29,5 +18,9 @@
     "@types/node": "^18",
     "tsup": "^8.1.0",
     "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "chalk": "^4",
+    "ts-node": "^10.9.2"
   }
 }
