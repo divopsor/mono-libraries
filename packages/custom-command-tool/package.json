@@ -1,6 +1,6 @@
 {
   "name": "@divops-mono-20240625/custom-command-tool",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./src/index.ts",
   "bin": "./src/cli.js",
   "publishConfig": {
