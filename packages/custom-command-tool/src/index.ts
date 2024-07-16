@@ -8,6 +8,6 @@ console.log(
 
 console.log('');
 
-console.log(chalk.bgWhite(`현재시각: ${new Date().toISOString()}`));
+console.log(chalk.bgCyan(`현재시각: ${new Date().toISOString()}`));
 
 console.log('');
