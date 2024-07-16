@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.6 (2024-07-16)
+
+### Bug Fixes
+
+* **custom-command-tool:** date 배경색 변경 ([9a25f91](https://github.com/divopsor/mono-libraries/commit/9a25f91cdd7b08364cb99e32017f63c2564ea20b))
+
 ## 0.1.5 (2024-07-16)
 
 ### Bug Fixes
